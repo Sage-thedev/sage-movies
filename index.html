@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-    <div class="topnav">
-        <a href="#" class="active">Sage movies</a>
-        <div class="search-container">
-           <form role="search" id="form">
-                <input type="search" id="query" name="q" placeholder="Search...">
-           </form> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- animated css  -->
+
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  </head>
+  <body>
+    <!-- loader -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span class="dots1"></span>
+          <span class="dots2"></span>
+          <span></span>
         </div>
+      </div>
+    </div>
+    <!-- loader ends  -->
+
+    <div id="page-wrapper" class="page-wrapper my-element">
+      <div class="topnav">
+        <a href="#" class="active animate__animated animate__zoomInDown animate__delay-5s 5s animate__slower 3s">Sage movies</a>
+        <div class="search-container">
+          <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="Search..." />
+          </form>
+        </div>
+      </div>
+      <section id="section"></section>
+
+      <!-- footer begins  -->
+
+    <footer>
+      <div class="footer-container">
+        <div>
+          <p style="font-family: serif;">Designed By SageTheDev</p>
+        </div>
+        <div class="all-socials">
+          <div class="socials">
+            <a href="https://x.com/officialelsage">
+              <i class="fa-brands fa-twitter"  style="color: royalblue;"></i>
+            </a>
+          </div>
+
+          <div  class="socials">
+            <a href="https://github.com/Sage-thedev">
+              <i class="fa-brands fa-github" style="color: black;"></i>
+            </a>
+          </div>
+
+          <div  class="socials">
+            <a href="https://wa.me/+2348149385468">
+              <i class="fa-brands fa-whatsapp"  style="color: #079607;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     </div>
 
-    <section id="section">
-    </section>
+    
 
-    <script src="script.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
